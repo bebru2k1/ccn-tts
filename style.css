@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  display: flex;
+}
+.app__left {
+  max-width: 356px;
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+}
+.app__left__nav {
+}
+.app__left__nav__item {
+  padding: 20px;
+  color: white;
+  list-style: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.app__right {
+  max-width: 1024px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+.app__right__logo {
+  margin-top: 20px;
+  width: 300px;
+}
+.app__right__content {
+  background-color: rgb(185, 185, 185);
+  padding: 20px;
+  text-align: center;
+}
+.app__right__content__title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.app__right__content__des {
+  margin-top: 20px;
+}
+.app__right__box {
+  display: flex;
+}
+.app__right__box__item {
+}
+.app__right__box__item > p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.app__right__box__item__float {
+}
+.app__right__box__item__float > img {
+  float: left;
+}
+.app__right__clear {
+  clear: left;
+}
